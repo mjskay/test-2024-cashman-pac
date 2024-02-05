@@ -17,6 +17,7 @@ jobs:
         node-version: 18
         cache: 'npm'
     - run: npm ci
+    - run: npm install idyll
     - run: idyll build
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
