@@ -58,3 +58,6 @@ typings/
 .env
 
 .idyll
+.Rproj.user
+*.Rproj
+*~
